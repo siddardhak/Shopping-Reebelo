@@ -19,7 +19,7 @@ code for backend can be found under packages/functions
 
 ## Code for frontend
 
-code for frontend can be found under packages/frontend
+code for frontend can be found under packages/ui
 
 ## setting up the project
 
@@ -33,3 +33,5 @@ aws-vault exec [your aws-vault profile] -- yarn deploy --stage <stage you to use
 
 4. This will deploy backend and frontend to the AWS and outputs api url and frontend url on your console.
 5. Frontend url is basically a cloudfront url, this can be further configured to custom domain.
+
+Once deployed user should be able to access the rest apis for **creating Products and Orders from their postman, get and update calls are done via frontend**
