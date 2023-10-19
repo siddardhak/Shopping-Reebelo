@@ -51,7 +51,7 @@ export function Stack({ stack }: StackContext) {
   api.attachPermissions([productTable, orderTable]);
 
   const site = new StaticSite(stack, "ShoppingFrontend", {
-    path: "packages/frontend",
+    path: "packages/ui",
     buildCommand: "npm run build",
     buildOutput: "build",
     environment: {
